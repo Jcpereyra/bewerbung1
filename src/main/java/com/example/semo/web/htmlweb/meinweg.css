@@ -1,0 +1,195 @@
+ body{
+         width: 100%;
+         height: 119%;
+         background-color: white;
+ }
+ html{
+    width: 100%;
+    height: 100%;
+ }
+.whoami{
+    color: white;
+    margin-top: 100px;
+    font-family: "Times Roman";
+    text-align: center;
+    text-shadow: rgb(5, 5, 5) 34px;
+    margin-left: 30%;
+    width: 100%;
+    font-size: 40px;;
+
+}
+.whoami ul{
+    list-style: outside;
+    text-align: left;
+    height: 200px;
+    color: black;
+    text-decoration: none;
+    font-family: initial;
+    font-weight: lighter;
+}
+.whoami ul li{
+    display: flex;
+    width: 650px;
+    text-decoration: none;
+}
+.whoami ul li:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    color: yellow;
+    transition: transform 0.75s linear;
+    -webkit-transition: transform 0.75s linear;
+    -moz-transition: transform 0.75s linear;
+    -ms-transition: transform 0.75s linear;
+    -o-transition: transform 0.75s linear;
+}
+.mea{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -70%;
+    margin-top: -1000px;
+    background-image: url("profil04.png");
+    background-size: cover;
+    box-shadow: black 5px 5px , rgb(8, 7, 46) 10px 10px;
+}
+.statement1{
+    width: 100%;
+    height: 120%;
+    background-color: transparent;
+    margin-left: 0%;
+    text-decoration: none;
+}
+.statement2{
+    width: 100%;
+    height: 325px;
+    background-color: rgba(255, 192, 203, 0.021);
+    color: rgb(9, 1, 29);
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.strength{
+    display: flow-root;
+    background-color: red;
+    width: 100%;
+    height: 1200px;
+    color: green;
+    font-size: 40px;
+}
+.strength label{
+    color: lightgreen;
+    display: inline-table;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    text-align: center left;
+}
+.strength label:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transition: transform 1s linear;
+    -webkit-transition: transform 0.4s linear;
+    -moz-transition: transform 1s linear;
+    -ms-transition: transform 1s linear;
+    -o-transition: transform 1s linear;
+    border-color: black;
+    border-style: groove;
+    background-color: rgba(0, 128, 0, 0.719);
+}
+.strength label img{
+    width: 500px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 5px;
+    color: Black;
+}
+.strength label img:hover{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transition: transform 0.7s linear;
+    -webkit-transition: transform 0.3s linear;
+    -moz-transition: transform 0.7s linear;
+    -ms-transition: transform 0.7s linear;
+    -o-transition: transform 0.7s linear;
+    box-shadow: white 5px 5px, black 0px 0px 8px 8px;
+}
+i{
+    font-family: cursive;
+    color: black;
+
+}
+.strength label .progress{
+    width: 500px;
+    height: 40px;
+    background-color: green;
+    color:blueviolet;
+    margin-left:30%;
+    border-style: groove;
+    border-color: red;
+}
+.korb{
+    background-image: url("shopnoi.png");
+    background-size: cover;
+   content: "hello";
+   width: 50px;
+   height: 50px;
+   margin-left: 32%;
+   position: absolute;
+   transform:translateY(720%);
+   -webkit-transform:translateY(720%);
+   -moz-transform:translateY(720%);
+   -ms-transform:translateY(720%);
+   -o-transform:translateY(720%);
+   transition: transform 1s linear;
+   -webkit-transition: transform 1s linear;
+   -moz-transition: transform 1s linear;
+   -ms-transition: transform 1s linear;
+   -o-transition: transform 1s linear;
+}
+.liebste-bücher{
+    background-image: url("star.png");
+    background-size: cover;
+    content: "hello";
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    margin-left: 39%;
+    position: absolute;
+    transform:translateY(720%);
+    -webkit-transform:translateY(720%);
+    -moz-transform:translateY(720%);
+    -ms-transform:translateY(720%);
+    -o-transform:translateY(720%);
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    -moz-transition: transform 1s linear;
+    -ms-transition: transform 1s linear;
+    -o-transition: transform 1s linear;
+}
+@keyframes drive{
+    50%{
+       transform: translate(10%)    ;
+       -webkit-transform: translate(10%)    ;
+       -moz-transform: translate(10%)    ;
+       -ms-transform: translate(10%)    ;
+       -o-transform: translate(10%)    ;
+}
+    100%{
+        transform: translate(50%)    ;
+        -webkit-transform: translate(50%)    ;
+        -moz-transform: translate(50%)    ;
+        -ms-transform: translate(50%)    ;
+        -o-transform: translate(50%)    ;
+        opacity: 0.1;
+}
+}

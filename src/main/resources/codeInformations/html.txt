@@ -1,0 +1,7 @@
+Nach einem Jahr der Beschäftigung mit HTML habe ich grundlegende Kenntnisse in der Erstellung von Webseiten erworben und bin in der Lage, semantisch korrekten und zugänglichen HTML-Code zu schreiben.
+
+Ich habe ein tiefes Verständnis für die Grundlagen von HTML, wie z.B. die Strukturierung von Inhalten mit Überschriften, Absätzen, Listen und Tabellen, und kann HTML-Elemente effektiv einsetzen, um den Inhalt einer Webseite zu organisieren.
+
+Ich habe auch Erfahrung in der Verwendung von HTML5-Elementen wie video, audio und canvas, die es ermöglichen, multimediale Inhalte und interaktive Grafiken in Webseiten zu integrieren.
+
+Ich bin in der Lage, responsive Designs zu erstellen, indem ich Media-Queries und andere Technologien wie Bootstrap einsetze, um Webseiten an verschiedene Bildschirmgrößen und Geräte anzupassen

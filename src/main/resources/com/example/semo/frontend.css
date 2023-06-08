@@ -1,0 +1,32 @@
+#web{
+ -fx-background-image: url("https://th.bing.com/th/id/R.6339e25f5d9f7c47b9c8744e40801915?rik=%2fCFVPTyzVH01VQ&riu=http%3a%2f%2fwww.techyv.com%2fsites%2fdefault%2fusers%2fImages-Folder%2fTop-10-Must-Have-Free-Web-Developer-Tools.jpg&ehk=XmA8k%2bpR6XCjM7CRiu6KMG3vHBqlS8%2fsdgFJhtfmATA%3d&risl=&pid=ImgRaw&r=0");
+ -fx-border-color: #D45D35;
+}
+.webview{
+-fx-border-color: black;
+-fx-border-style: solid;
+}
+.button{
+  -fx-background-color: purple;
+  -fx-text-fill: white;
+  -fx-font-family:  "PT Sans";
+  -fx-font-size: 30px;
+  -fx-text-align: center;
+}
+
+.button:hover{
+  -fx-background-color: black;
+  -fx-text-fill: green;
+  -fx-font-family:  "PT Sans";
+  -fx-font-size: 40px;
+}
+*{
+-fx-font-size:30px;
+-fx-margin-top: 100px;
+-fx-layout-x: 0px;
+-fx-layout-y: 100px;
+}
+.anchorpane{
+-fx-width: 400px;
+-fx-height: 400px;
+}

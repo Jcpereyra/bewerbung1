@@ -1,0 +1,254 @@
+#pinwand{
+       -fx-background-image: url("https://wallpapercave.com/wp/wp2601899.jpg");
+       -fx-stroke: 2px;
+       -fx-background-size: cover;
+}
+#glass0:hover{
+   -fx-background-image: url("https://i.pinimg.com/originals/18/a4/94/18a4949fc9c8067172d3b96e302e7097.gif") ;
+   -fx-background-size: contain;
+   -fx-background-position: top;
+   -fx-zoom: 0;
+   -fx-border-color: pink;
+   -fx-background-repeat: no-repeat;
+   -fx-background-color: #1E1842;
+}
+
+#glass1:hover{
+   -fx-background-image: url("https://s3-sa-east-1.amazonaws.com/letscode-ghost-bucket/2022/07/Blog-capa-Desenvolvimento-web.png") ;
+   -fx-background-size: contain;
+   -fx-background-position: top;
+   -fx-zoom: 0;
+   -fx-border-color: pink;
+   -fx-background-repeat: no-repeat;
+   -fx-background-color: #212959;
+
+}
+#glass2:hover{
+   -fx-background-image: url("https://media.giphy.com/media/rjmxLtQueiRWg/giphy.gif") ;
+   -fx-background-size: contain;
+   -fx-background-position: top;
+   -fx-zoom: 0;
+   -fx-border-color: pink;
+   -fx-background-repeat: no-repeat;
+   -fx-background-color: #142935;
+}
+#glass3:hover{
+   -fx-background-image: url("https://media3.giphy.com/media/doXBzUFJRxpaUbuaqz/200.gif?cid=790b761152b3ucfnusckj0k4bladptq5va52jubghnc0dyyu&rid=200.gif&ct=g") ;
+   -fx-background-size: contain;
+   -fx-background-position: top;
+   -fx-zoom: 0;
+   -fx-border-color: pink;
+   -fx-background-repeat: no-repeat;
+   -fx-background-color: #010413;
+}
+#hide2:hover{
+       -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #9becfcff 0.0%, #64c7f8ff 50.0%, #0253d5ff
+       100.0%);
+       -fx-scale: 1.6;
+}
+#hide2 .button{
+     -fx-appearance: none;
+     -fx-border: none;
+     -fx-background: none;
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+     -fx-font-family: Cambria;
+     -fx-font-size: 24px;
+     -fx-text-align: center;
+     -fx-text-fill: #FFFFFF;
+}
+#hide2 .button:hover{
+     -fx-scale: 1.4;
+     -fx-appearance: none;
+     -fx-border: none;
+     -fx-background: none;
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+     -fx-font-family: Cambria;
+     -fx-font-size: 27px;
+     -fx-text-align: center;
+     -fx-text-fill: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #00c6fdff 0.0%, #fdfc1dff 100.0%);
+}
+#hide:hover{
+           -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #9becfcff 0.0%, #64c7f8ff 50.0%, #0253d5ff
+              100.0%);
+              -fx-scale: 1.6;
+}
+#hide .button{
+        -fx-background-size: 50px;
+        -fx-background-position: top left;
+        -fx-text-fill: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #f94d4aff 0.0%, #338eeeff 100.0%);
+        -fx-border-width: 4px;
+        -fx-border-style: solid;
+        -fx-font-size: 30px;
+        -fx-text-align: center;
+        -fx-background-repeat: no-repeat;
+        -fx-border-color: transparent;
+        -fx-effect: dropshadow(gaussian, grey, 0.2,1.1,1.0,0.8);
+        -fx-background-color: transparent;
+        -fx-border-bottom-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #5ed3f7ff 0.0%, #1763c6ff 100.0%);
+}
+#hide .button:hover{
+        -fx-background-size: contain;
+        -fx-background-position: center;
+        -fx-text-fill: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #f94d4aff 0.0%, #338eeeff 100.0%);
+        -fx-border-width: 4px;
+        -fx-border-style: solid;
+        -fx-font-size: 34px;
+        -fx-text-align: center;
+        -fx-background-repeat: no-repeat;
+        -fx-border-color: transparent;
+        -fx-effect: dropshadow(gaussian, red, 0.2,1.1,1.0,0.8);
+        -fx-scale: 1.6;
+        -fx-text-fill: Black;
+        -fx-cursor: "Hand";
+}
+#hide1:hover{
+       -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #9becfcff 0.0%, #64c7f8ff 50.0%, #0253d5ff
+       100.0%);
+       -fx-scale: 1.6;
+}
+#hide1 .button{
+       -fx-position: relative;
+       -fx-display: inline-block;
+       -fx-outline: none;
+       -fx-border: 0;
+       -fx-vertical-align: middle;
+       -fx-text-decoration: underline;
+       -fx-font-family: Carlito;
+       -fx-background-color: transparent;
+       -fx-border-color:transparent;
+       -fx-text-align: center;
+       -fx-font-size: 26px;
+       -fx-text-fill: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #fa00fdff 0.0%, #02dcddff 100.0%);
+       -fx-background-size: 100px;
+       -fx-background-repeat: no-repeat;
+       -fx-background-position: left;
+}
+#hide1 .button:hover{
+       -fx-position: relative;
+       -fx-display: inline-block;
+       -fx-outline: none;
+       -fx-border: 0;
+       -fx-vertical-align: middle;
+       -fx-text-decoration: underline;
+       -fx-font-family: Carlito;
+       -fx-background-color: transparent;
+       -fx-border-color:transparent;
+       -fx-text-align: center;
+       -fx-font-size: 32px;
+       -fx-text-fill: white;
+       -fx-scale: 1.3;
+}
+#home:hover{
+            -fx-background-color: transparent;
+            -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #193237ff 0.0%, #2e4e58ff 50.0%, #39687cff 100.0%);
+            -fx-border-left: none;
+}
+#pc:hover{
+       -fx-background-color: transparent;
+       -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #193237ff 0.0%, #2e4e58ff 50.0%, #39687cff 100.0%);
+}
+#user:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #193237ff 0.0%, #2e4e58ff 50.0%, #39687cff 100.0%);
+}
+#home1{
+  -fx-background-position: center;
+       -fx-background-size: 200px 124px;
+-fx-background-color: red;
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-image: url("https://th.bing.com/th/id/R.98a31927a7746272bcc32ad7135bf0f2?rik=Hp97%2fQewLURc6A&pid=ImgRaw&r=0");
+}
+#pc1{
+  -fx-background-position: center;
+       -fx-background-size: 200px 124px;
+-fx-background-color: green;
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-image: url("https://media.istockphoto.com/illustrations/sight-on-a-spaceship-game-interface-scifi-ui-interface-illustration-id866556986?k=6&m=866556986&s=170667a&w=0&h=_w7F13QrJcZE41A5mnyHR0_HptKDXwilNUxjdxc5kd0=");
+}
+#user1{
+      -fx-background-color: white;
+      -fx-background-image: url("https://th.bing.com/th/id/OIP.L5UOLcG3gNJUnemlYCz0IgHaGS?pid=ImgDet&rs=1");
+      -fx-background-repeat: no-repeat;
+      -fx-background-position: center;
+       -fx-background-size: 200px 124px;
+}
+home1 .button{
+       -fx-background-color:
+           linear-gradient(#f0ff35, #a9ff00),
+           radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+       -fx-background-radius: 6, 5;
+       -fx-background-insets: 0, 1;
+       -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+       -fx-text-fill: #395306;
+}
+#pc1 .button{
+          -fx-background-color:
+                linear-gradient(#ffd65b, #e68400),
+                linear-gradient(#ffef84, #f2ba44),
+                linear-gradient(#ffea6a, #efaa22),
+                linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+                linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+            -fx-background-radius: 30;
+            -fx-background-insets: 0,1,2,3,0;
+            -fx-text-fill: #654b00;
+            -fx-font-weight: bold;
+            -fx-font-size: 14px;
+            -fx-padding: 10 20 10 20;
+}
+#user1 .button{
+   -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;}
+
+
+    home1 .button:hover{
+           -fx-background-color: blue;
+           -fx-text-fill: white;
+    }
+    #pc1 .button:hover{
+              -fx-background-color: green;
+                -fx-background-radius: 30;
+                -fx-text-fill: #654b00;
+                -fx-font-weight: bold;
+                -fx-font-size: 14px;
+                -fx-padding: 10 20 10 20;
+    }
+    #user1 .button:hover{
+       -fx-padding: 8 15 15 15;
+        -fx-background-radius: 8;
+        -fx-background-color: blue;
+        -fx-effect: dropshadow( gaussian , rgba(12,3,0,0.75) , 4,0,0,1 );
+        -fx-font-weight: bold;
+        -fx-font-size: 1.1em;
+        }
+        #list .vbox{
+            -fx-spacing: 2;
+            -fx-align-content: center;
+        }
+        #list .vbox .label{
+          -fx-border-color: black;
+          -fx-align-content: center;
+          -fx-padding: 200px  200px  15px  15px;
+        }
+        #kauf{
+        -fx-background-color: black;
+         -fx-text-fill:white;
+          -fx-border-color: white;
+        }
+        #kauf:hover{
+        -fx-background-color: green;
+        -fx-text-fill: black;
+        -fx-border-color: lime;
+        }

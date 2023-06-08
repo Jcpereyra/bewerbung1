@@ -1,0 +1,34 @@
+
+
+*{
+-fx-border: none;
+}
+*::before {
+     -fx-scale: 2;
+     -fx-color: pink;
+     -fx-padding: 20px 20px 20px 20px;
+}
+#texter{
+-fx-background-color: transparent;
+-fx-font-size: 20px;
+-fx-border: none;
+-fx-font-family: Tangerine;
+}
+#mycss{
+ -fx-text-fill: white;
+ -fx-font-weight: bold;
+ -fx-font-size: 12px;
+}
+.imageview{
+-fx-border: none;
+-fx-effect: inner-shadow(100px ,purple,10,9,8,0.8);
+}
+.imageview:hover{
+   -fx-rotate-right: 12deg;
+}
+.button{
+  -fx-background-color: black;
+  -fx-text-fill: green;
+  -fx-font-size: 10px;
+  -fx-text-position: center;
+}

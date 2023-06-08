@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta xmlns="http://www.w3.org/1999/xhtml">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web entwicklung</title>
+    <meta name="viewport" content="width=device-width , height=device-height">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="meinweg.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="einkaufswagen.js"></script>
+</head>
+<body class="body">
+   <div class="kopf">
+    <h1 class="überschrifft">Juan Carlos Pereyra de leon</h1>
+    <span class="introduce">Network Knowledge</span>
+    <img alt="/webdev.png"  srcset="webdev.png" class="logo">
+    <ul class="categories">
+	    <li class="home" onclick="window.location.reload(true)">Home|</li>
+	    <li class="infos" id="infos" onclick="informations()">Informations|</li>
+            <li class="conection" onclick="buchverlauf()">Strength</li>
+    </ul>
+    <label class="backend" ><a><img alt="./add-user.png"  src="add-user.png">
+             </a>
+      <a ><img alt="./waren.png" src="waren.png"></a>
+      <a><img alt="/star.png" src="star.png" id="favorite" ></a>
+    </label> 
+    </div><br>
+    <div class="me" id="medio">
+     <button id="begutachten" class="interview" name="begutachten" onclick="introduce()"> Begutachten</button>
+    </div>
+    <script type="text/javascript">
+      const links = ["https://www.w3schools.com/nodejs/","https://vuejs.org/tutorial/#step-1","https://reactjs.org/tutorial/tutorial.html","https://www.tutorialspoint.com/json/index.htm"];
+      const $jetzigeLernPlattformen = document.createElement("h2");
+       $jetzigeLernPlattformen.setAttribute("class","lernstuff");
+        //html wissen 
+        const htmlWissen = document.createElement("div");
+        htmlWissen.setAttribute("class","htmlwissen");
+        htmlWissen.setAttribute("id","html");
+         //css wissen
+        const cssWissen = document.createElement("div");
+        cssWissen.setAttribute("class","csswissen");
+        htmlWissen.setAttribute("id","css");
+        //Javascript wissen
+        const jsWissen = document.createElement("div");
+        jsWissen.setAttribute("class","jswissen");
+        htmlWissen.setAttribute("id","js");
+        function introduce(){
+          //Home display zur mitteilung der bereiche die ich mir aneigne
+          const radierer = document.getElementById("medio");
+          radierer.style.backgroundImage= "none";
+          radierer.style.fontSize = "30px";
+          radierer.removeChild[1];
+          radierer.style.transform = "scale(1)";
+          radierer.style.color = "black";
+          radierer.style.display = "block";
+          radierer.style.width="100%";
+          radierer.style.height="100%";
+
+          const gutachter = document.getElementById("begutachten");
+          gutachter.hidden = true;
+          radierer.innerHTML = "bisher:";
+          radierer.append(htmlWissen);
+          radierer.append(cssWissen);
+          radierer.append(jsWissen);
+          radierer.style.backgroundColor = "#0F6573"
+          lernbereiche(radierer);
+
+        }
+        function lernbereiche(platz){
+          /*ul list for boxComponents which contains links and infos about stuffs i have learned about web developement.*/
+          var ul = document.createElement("div");
+          ul.setAttribute("class","lernbereiche");
+          ul.setAttribute("id", "linksbox");
+          var list =[document.createElement("a"),document.createElement("a"),document.createElement("a"),document.createElement("a")];
+          let names = ["Node.js","Vue.js","React","JSon"];
+          const classes=["node","vue","react","json"]
+          for(var t =0; t<names.length; t++){
+            //let man=[url(`nodejs.png`)];
+            list[t].innerHTML=names[t];
+            list[t].style.backgroundImage="json-file.png";
+            list[t].setAttribute("class",classes[t]);
+            list[t].setAttribute("href",links[t]);
+
+          }
+          let lern = "Momentan Lerne ich  Intensiv den Umgang mit den oben aufgelistete themen. sie gelangen auf meine aktuelle lernplatform in dem sie den jeweiligen bereich anclicken ";
+          ul.append(list[0]);
+          ul.append(list[1]);
+          ul.append(list[2]);
+          ul.append(list[3]);
+          platz.append(ul);
+          $jetzigeLernPlattformen.innerHTML = lern;
+          platz.append($jetzigeLernPlattformen);
+        }
+        const markup = "neben html habe ich mich auch mit anderen Markup sprachen beschäftigt da ich mich bereits in verschiedene Programmiersprachen versucht habe und immer wieder auf neues gestossen bin. ";
+        //html onclick
+       htmlWissen.onclick=function(){
+        htmlWissen.style.width="500px";
+        htmlWissen.style.backgroundImage="none";
+        htmlWissen.style.backgroundColor = "#5f3252";
+        // Markup language 
+        htmlWissen.append(document.createElement("p").innerHTML=markup);
+        htmlWissen.style.display = "block";
+        htmlWissen.style.fontSize = "24px";
+        htmlWissen.style.textAlign = "center";
+        $markuplenguage(htmlWissen);
+        htmlWissen.onclick=null;
+
+       }
+       const design = "der einstieg in css ist mir etwas leicht gefallen da ich bereits in 2 wochen den umgang mit css gemeistert habe , dazu nutze ich design platform wie: ";
+       //css onclick
+       cssWissen.onclick=function(){
+        cssWissen.style.width="500px";
+        cssWissen.style.backgroundImage="none";
+        cssWissen.style.backgroundColor = "lightblue";
+        $designt(cssWissen,design);
+        cssWissen.onclick=null;
+       }
+       //js onclick
+       jsWissen.onclick=function(){
+        jsWissen.style.width="500px";
+        jsWissen.style.backgroundImage="none";
+        jsWissen.style.backgroundColor = "yellow";
+        jsWissen.innerHTML = "ich hatte ein schnellen und einfachen einstieg in js da ich vor einem jahr mit java angefangen habe und ich überall versuche zusammenhänge zu finden und zu verstehen.";
+        jsWissen.onclick=null;
+       }
+       /* i will create an array here with a markup lamguage list and one for the design list*/
+       function $markuplenguage(parent){
+           const holder = document.createElement("ol");
+           holder.setAttribute("class","markuplist");
+           const liste = [4];
+           let names=["HTML","XML","FXML", "JSon"];
+           for(let i=0; i<4; i++){
+            liste[i] = document.createElement("li");
+            liste[i].innerHTML =names[i];
+          }
+          holder.append(liste[0]);
+          holder.append(liste[1]);
+          holder.append(liste[2]);
+          holder.append(liste[3]);
+          parent.append(holder);
+
+      }
+      function $designt(parent,designing){
+           const holder = document.createElement("ol");
+           holder.setAttribute("class","markuplist");
+           const liste = [4];
+           let names=["Figma","Canva","lordicon", "java css"];
+           for(let i=0; i<4; i++){
+            liste[i] = document.createElement("li");
+            liste[i].innerHTML =names[i];
+          }
+          parent.innerHTML = designing;
+          parent.style.fontSize = "30px";
+          holder.append(liste[0]);
+          holder.append(liste[1]);
+          holder.append(liste[2]);
+          holder.append(liste[3]);
+          parent.append(holder);
+
+      }
+    </script>
+
+</body>
+</html>

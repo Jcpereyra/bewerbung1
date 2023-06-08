@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9933bb;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semo.Gui">
+   <children>
+      <Pane layoutX="-1.0" layoutY="3.0" prefHeight="317.0" prefWidth="600.0">
+         <children>
+            <TextFlow prefHeight="317.0" prefWidth="600.0"><Text fx:id="ui">
+                  <font>
+                     <Font name="Droid Sans Mono Slashed" size="11.0" />
+                  </font></Text></TextFlow>
+         </children>
+      </Pane>
+      <ImageView fitHeight="49.0" fitWidth="41.0" layoutX="113.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://assets.website-files.com/5b5cd6b75bb9b0dce50e212f/5f3457b9e484ac11b5c30464_1667px-Figma-logo.svg-p-800.png" />
+         </image>
+      </ImageView>
+      <Text fill="#e4e4e4" layoutX="172.0" layoutY="370.0" text="Figma" wrappingWidth="121.0">
+         <font>
+            <Font size="43.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

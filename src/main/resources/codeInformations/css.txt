@@ -1,0 +1,7 @@
+Nach einem Jahr der Beschäftigung mit CSS habe ich umfangreiche Kenntnisse in der Gestaltung von Websites erworben und bin in der Lage, ansprechende und funktionale Webseiten zu erstellen.
+
+Ich habe ein tiefes Verständnis für die Grundlagen von CSS, wie z.B. Box-Model, Positionierung, Floats und Clearfix, und kann diese Konzepte effektiv einsetzen, um das Layout und das Design von Webseiten zu steuern.
+
+Ich habe auch Erfahrung in der Verwendung von CSS-Präprozessoren wie SASS oder LESS, die die Entwicklung von CSS-Stylesheets effizienter und flexibler machen.
+
+Ich bin in der Lage, responsive Designs zu erstellen, die sich an verschiedene Bildschirmgrößen und Geräte anpassen und benutzerfreundliche Navigationen und Menüs zu entwerfen.

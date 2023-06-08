@@ -1,0 +1,8 @@
+
+Nach einem halben Jahr der Beschäftigung mit XML habe ich grundlegende Fähigkeiten im Umgang mit dieser Sprache erworben.
+
+Ich habe Kenntnisse in der Erstellung von XML-Dokumenten und der Verwendung von DTDs und XML-Schemata erworben, um die Struktur und das Format von Daten zu definieren. Ich bin in der Lage, XML-Dokumente zu validieren und Fehler zu beheben.
+
+Ich habe auch Erfahrungen in der Verwendung von XSLT gesammelt, um XML-Daten in verschiedene Formate zu transformieren, z.B. HTML, PDF oder andere XML-Formate.
+
+Ich bin bestrebt, meine Kenntnisse und Fähigkeiten im Umgang mit XML kontinuierlich zu erweitern und zu vertiefen, indem ich mich ständig über neue Standards und Technologien auf dem Laufenden halte.

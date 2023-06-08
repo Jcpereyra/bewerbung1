@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+<AnchorPane fx:id="pinwand" prefHeight="900.0" prefWidth="1909.0" stylesheets="@center.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semo.HelloController">
+   <ImageView id="knowlege" fitHeight="771.0" fitWidth="1342.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../pictures/top.png" />
+      </image>
+   </ImageView>
+   <HBox fx:id="menu1" layoutX="1308.0" prefHeight="124.0" prefWidth="601.0" style="-fx-background-color: transparent;">
+      <children>
+         <Pane fx:id="home" onMouseExited="#minimize" prefHeight="200.0" prefWidth="200.0" scaleZ="5.0" style="-fx-background-color: transparent;" translateZ="5.0">
+            <children>
+               <ImageView fx:id="house" fitHeight="95.0" fitWidth="106.0" layoutX="40.0" layoutY="29.0" onMouseEntered="#capacities" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../pictures/home.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+         <Pane fx:id="pc" onMouseExited="#minimize" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;">
+            <children>
+               <ImageView fx:id="computer" fitHeight="95.0" fitWidth="112.0" layoutX="38.0" layoutY="29.0" onMouseEntered="#capacities" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../pictures/pc.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+         <Pane fx:id="user" onMouseExited="#minimize" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;">
+            <children>
+               <ImageView fx:id="userpic" fitHeight="95.0" fitWidth="106.0" layoutX="53.0" layoutY="29.0" onMouseEntered="#capacities" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../pictures/user.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+      </children>
+   </HBox>
+   <Label fx:id="title" layoutX="-4.0" prefHeight="124.0" prefWidth="1325.0" text="Label">
+      <graphic>
+         <ImageView fitHeight="123.0" fitWidth="1345.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../pictures/titel.png" />
+            </image>
+         </ImageView>
+      </graphic>
+   </Label>
+   <Label fx:id="glass0" layoutY="125.0" onMouseEntered="#components" onMouseExited="#destroyer" prefHeight="705.0" prefWidth="334.0">
+      <graphic>
+         <Pane fx:id="hide2" prefHeight="663.0" prefWidth="323.0">
+            <children>
+               <VBox alignment="CENTER" layoutX="-1.0" layoutY="225.0" prefHeight="480.0" prefWidth="337.0">
+                  <children>
+                   <Button mnemonicParsing="false" onMouseEntered="#styleimages" prefHeight="106.0" prefWidth="322.0"
+                           text="MK-Language" onAction="#frontend" />
+                     <Button mnemonicParsing="false" onMouseEntered="#styleimages" prefHeight="90.0"
+                             prefWidth="326.0" text="Style" onAction="#frontend" />
+                     <Button mnemonicParsing="false" onMouseEntered="#styleimages" prefHeight="98.0"
+                             prefWidth="320.0" text="Design" onAction="#frontend" />
+                  </children>
+               </VBox>
+            </children>
+         </Pane>
+      </graphic></Label>
+   <Label fx:id="glass1" layoutX="335.0" layoutY="124.0" onMouseEntered="#components" onMouseExited="#destroyer" prefHeight="705.0" prefWidth="334.0">
+      <graphic>
+         <Pane fx:id="hide" prefHeight="663.0" prefWidth="323.0">
+            <children>
+               <VBox alignment="CENTER" layoutX="4.0" layoutY="229.0" prefHeight="468.0" prefWidth="326.0">
+                  <children>
+                     <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="215.0"
+                             style="-fx-background-image: url('https://cdn-icons-png.flaticon.com/512/1069/1069129.png');" text="GUI"  onAction="#backend"/>
+                     <Button mnemonicParsing="false" prefHeight="107.0" prefWidth="222.0"
+                             style="-fx-background-image: url('https://cdn-icons-png.flaticon.com/512/3612/3612569.png');" text="Games" onAction="#backend" />
+                     <Button mnemonicParsing="false" prefHeight="99.0" prefWidth="223.0"
+                             style="-fx-background-image:url('https://cdn-icons-png.flaticon.com/512/8776/8776745.png');" text="API" onAction="#backend" />
+                  </children>
+               </VBox>
+            </children>
+         </Pane>
+      </graphic></Label>
+   <Label fx:id="glass2" layoutX="672.0" layoutY="124.0" onMouseEntered="#components" onMouseExited="#destroyer" prefHeight="705.0" prefWidth="334.0">
+      <graphic>
+         <Pane fx:id="hide1" prefHeight="663.0" prefWidth="323.0">
+            <children>
+               <VBox layoutY="290.0" onMouseEntered="#anonymous" prefHeight="416.0" prefWidth="334.0">
+                  <children>
+                     <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="324.0"
+                             style="-fx-background-image: url('https://media.tenor.com/images/ccb959edb41a02737755b2209ef7d97a/tenor.gif');" text="Kali.Linux" onAction="#request" />
+                     <Button mnemonicParsing="false" prefHeight="161.0" prefWidth="324.0"
+                             style="-fx-background-image: url('https://s3.amazonaws.com/media-p.slid.es/uploads/samidip/images/549249/Windows_logo_-_2012.png');" text="Windows-Shell" onAction="#request" />
+                  </children>
+               </VBox>
+            </children>
+         </Pane>
+      </graphic></Label>
+   <Label fx:id="glass3" alignment="CENTER" layoutX="1009.0" layoutY="123.0" onMouseEntered="#components" onMouseExited="#destroyer" prefHeight="705.0" prefWidth="334.0">
+      <graphic>
+         <Button disable="false" mnemonicParsing="false" prefHeight="95.0" prefWidth="181.0" text="Project Request" onAction="#request">
+            <font>
+               <Font name="Consolas" size="20.0" />
+            </font>
+         </Button>
+      </graphic></Label>
+   <TabPane fx:id="learn" layoutX="1342.0" layoutY="125.0" prefHeight="705.0" prefWidth="565.0" tabClosingPolicy="UNAVAILABLE">
+     <tabs>
+       <Tab text="online">
+         <content>
+           <AnchorPane fx:id="onlineSchool" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                     <WebView fx:id="online" prefHeight="572.0" prefWidth="565.0" />
+                     <Hyperlink fx:id="w3school" layoutX="5.0" layoutY="587.0" onAction="#changeEngine" prefHeight="66.0" prefWidth="157.0" text="W3School">
+                        <font>
+                           <Font name="Constantia" size="27.0" />
+                        </font></Hyperlink>
+                     <Hyperlink fx:id="codepen" layoutX="190.0" layoutY="587.0" onAction="#changeEngine" prefHeight="66.0" prefWidth="157.0" text="CodeC">
+                        <font>
+                           <Font size="27.0" />
+                        </font></Hyperlink>
+                     <Hyperlink fx:id="youtube" layoutX="372.0" layoutY="587.0" onAction="#changeEngine" prefHeight="66.0" prefWidth="157.0" text="youtube">
+                        <font>
+                           <Font name="Constantia" size="36.0" />
+                        </font></Hyperlink>
+                  </children>
+               </AnchorPane>
+         </content>
+       </Tab>
+       <Tab text="Books">
+         <content>
+           <AnchorPane fx:id="booklist" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                     <ScrollPane fx:id="list" prefHeight="679.0" prefWidth="565.0" />
+                  </children></AnchorPane>
+         </content>
+       </Tab>
+     </tabs>
+   </TabPane>
+
+
+</AnchorPane>

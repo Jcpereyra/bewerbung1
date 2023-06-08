@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000"
+            prefWidth="1700" stylesheets="@start.css" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semo.HelloApplication"
+            onKeyTyped="#anschreiben">
+    <DialogPane fx:id="bewerbung" contentText="Info" headerText="Persönliche Informationen" layoutX="1.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000" prefWidth="1700">
+        <header>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="220.0" prefWidth="1689.0">
+                <TextFlow fx:id="personal1" layoutX="222.0" lineSpacing="1.0" nodeOrientation="LEFT_TO_RIGHT"
+                          prefHeight="220.0" prefWidth="770.0" textAlignment="JUSTIFY">
+                    <Text fx:id="data" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                          text="Name: Juan Carlos Pereyra de Leon   " wrappingWidth="499.08203125">
+                        <font>
+                            <Font name="Corbel Light" size="36.0"/>
+                        </font>
+                    </Text>
+                </TextFlow>
+                <ImageView fitHeight="237.0" fitWidth="354.0" layoutX="1346.0" layoutY="-11.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="https://th.bing.com/th/id/R.6fb18931b709946d6804a9d06e9edae2?rik=tNb6buQCm03FtQ&amp;pid=ImgRaw&amp;r=0"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="222.0" fitWidth="355.0" layoutX="991.0" layoutY="-3.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="https://th.bing.com/th/id/OIP.Tf7UCUh1T1TYzOO7_LsCkQHaEo?pid=ImgDet&amp;rs=1"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="222.0" fitWidth="222.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../pictures/PROFILA.png"/>
+                    </image>
+                </ImageView>
+            </AnchorPane>
+        </header>
+        <content>
+          <AnchorPane fx:id="labelholder" minHeight="0.0" minWidth="0.0" prefHeight="725.0" prefWidth="1696.0">
+              <children>
+                  <ScrollPane fx:id="scroll" hbarPolicy="NEVER" layoutY="-3.0" prefHeight="720.0" prefWidth="431.0" style="-fx-background-color: none; -fx-border-color: none; -fx-fill: #FFFFCC " vbarPolicy="NEVER">
+                      <VBox fx:id="können" prefHeight="723.0" prefWidth="428.0">
+                          <Label fx:id="cpp" alignment="CENTER" prefHeight="79.0" prefWidth="435.0" style="-fx-padding:10;" text="C++">
+                              <font>
+                                  <Font size="39.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="csh" alignment="CENTER" prefHeight="76.0" prefWidth="435.0" style="-fx-padding:10;" text="C#">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="java" alignment="CENTER" prefHeight="74.0" prefWidth="433.0" style="-fx-padding:10;" text="Java">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="script" alignment="CENTER" prefHeight="74.0" prefWidth="428.0" text="Javascript">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="python" alignment="CENTER" prefHeight="66.0" prefWidth="433.0" text="Python">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="css" alignment="CENTER" prefHeight="59.0" prefWidth="429.0" text="CSS">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="droid" alignment="CENTER" prefHeight="67.0" prefWidth="436.0" text="Android-Dev">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="struct" alignment="CENTER" prefHeight="54.0" prefWidth="432.0" text="XML">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="sava" alignment="CENTER" prefHeight="70.0" prefWidth="428.0" text="UI/UX Design">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="web" alignment="CENTER" prefHeight="54.0" prefWidth="431.0" text="HTML">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="bank" alignment="CENTER" prefHeight="54.0" prefWidth="440.0" text="SQL">
+                              <font>
+                                  <Font size="36.0" />
+                              </font>
+                          </Label>
+                      </VBox>
+                  </ScrollPane>
+                  <TextFlow fx:id="info2" layoutX="429.0" layoutY="-3.0" prefHeight="718.0" prefWidth="1273.0" textAlignment="JUSTIFY">
+                      <children>
+                          <Text fx:id="informationen" fill="#221d1d" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Ich habe fundierte Kenntnisse in C++, C#, Java, Javascript, Python und CSS. Ich beherrsche C++ und C# für die Entwicklung von Desktop-Anwendungen und für die Spieleentwicklung. In Java habe ich Erfahrung in der Entwicklung von mobilen Anwendungen gesammelt und konnte mich in der Erstellung von Android-Apps weiterbilden. In JavaScript habe ich für die Frontend-Entwicklung von Webanwendungen gearbeitet und verfüge über umfangreiche Kenntnisse in der Arbeit mit den Frameworks React und AngularJS. In Python habe ich für die Entwicklung von Machine-Learning-Algorithmen gearbeitet und konnte Erfahrung in der Analyse großer Datenmengen sammeln. Auch im Bereich CSS bin ich vertraut und kann komplexe Designs für Webanwendungen erstellen." wrappingWidth="1902.080810546875">
+                              <font>
+                                  <Font name="Arial Black" size="22.0" />
+                              </font>
+                          </Text>
+                      </children>
+                  </TextFlow>
+              </children>
+          </AnchorPane>
+        </content>
+        <expandableContent>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="1700.0">
+              <children>
+                  <Pane fx:id="infospace" layoutX="500.0" layoutY="-700.0" prefHeight="694.0" prefWidth="651.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #ffffff 40.0%, #b870f8 60.0%);">
+                      <ImageView fx:id="cv" fitHeight="694.0" fitWidth="651.0">
+                          <image>
+                              <Image url="@../../../pictures/lebenslauf.png " />
+                          </image>
+                      </ImageView>
+                  </Pane>
+              </children>
+          </AnchorPane>
+        </expandableContent>
+    </DialogPane>
+    <Button layoutX="1361.0" layoutY="936.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0"
+            prefWidth="154.0" style="-fx-background-color: red;  -fx-border-style: solid;   -fx-border-radius: 2px;   -fx-border-color:  black; -fx-effect: dropshadow(three-pass-box, rgba(12,44,8,0.8), 10, 0, 0, 0); " text="EXIT" textFill="#e8e8e8">
+        <font>
+          <Font name="Consolas" size="37.0" />
+        </font>
+    </Button>
+    <Button layoutX="1546.0" layoutY="936.0" mnemonicParsing="false" onAction="#enter"
+            prefHeight="61.0"
+            prefWidth="137.0"
+            style="-fx-background-color: green;   -fx-text-fill: white; -fx-border-style: solid;   -fx-border-radius: 2px;   -fx-border-color:  black; -fx-effect: dropshadow(three-pass-box, rgba(12,44,8,0.8), 10, 0, 0, 0);  " text="Enter">
+        <font>
+          <Font name="Consolas" size="32.0" />
+        </font>
+    </Button>
+</AnchorPane>

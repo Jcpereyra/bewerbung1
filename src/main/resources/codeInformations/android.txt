@@ -1,0 +1,6 @@
+
+Nach einem halben Jahr der Beschäftigung mit Android Development habe ich grundlegende Kenntnisse in der Entwicklung von mobilen Anwendungen für Android-Plattformen erworben und kann einfache Anwendungen erstellen.
+
+Ich habe ein tiefes Verständnis für die Grundlagen von Android-Entwicklung, wie z.B. der Android-Architektur, der Benutzeroberfläche und der Bedienung, und kann diese Konzepte effektiv einsetzen, um Anwendungen zu erstellen, die eine benutzerfreundliche und ansprechende Benutzeroberfläche haben.
+
+Ich habe auch Erfahrung in der Verwendung von Android-Studio, dem offiziellen Entwicklungswerkzeug für Android-Entwickler, sowie in der Verwendung von Java-Programmierungssprache und der Android-SDK.

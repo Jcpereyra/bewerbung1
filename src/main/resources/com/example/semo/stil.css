@@ -1,0 +1,5 @@
+/* Style your Cube */
+
+  -fx-border: 4px ;     /* border style */
+  -fx-border-color: black; /* sets the border color*/
+  -fx-background-color: cyan; /* sets the background color */

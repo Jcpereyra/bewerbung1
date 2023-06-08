@@ -1,0 +1,13 @@
+Meine Kenntnisse in C++ umfassen unter anderem die Erstellung und Nutzung von Klassen und Funktionen, das Arbeiten mit Pointern und Speichermodellierung sowie die Arbeit mit den Standard Template Libraries (STL). Ich bin auch erfahren im Umgang mit verschiedenen Betriebssystemen wie Windows und Linux sowie mit verschiedenen Entwicklertools und IDEs wie Visual Studio und Eclipse.
+
+Darüber hinaus habe ich Erfahrung in der Zusammenarbeit mit anderen Entwicklern und Projektleitern, um sicherzustellen, dass Projekte termingerecht und in hoher Qualität abgeschlossen werden. Ich bin ein kommunikativer Teamplayer, der sich gerne neuen Herausforderungen stellt und bereit ist, sein Wissen und Können in C++ kontinuierlich zu erweitern.
+
+Ich bin überzeugt davon, dass ich mit meinen Kenntnissen und Erfahrungen in C++ ein wertvolles Mitglied Ihres Teams sein werde und zur erfolgreichen Umsetzung Ihrer Projekte beitragen kann.
+
+Ich habe mir C++ selbst beigebracht, indem ich mich intensiv mit der Programmiersprache auseinandergesetzt habe. Ich habe verschiedene Bücher, Online-Tutorials und Video-Kurse genutzt, um mein Wissen zu erweitern und meine Fähigkeiten in C++ zu verbessern.
+
+Ich habe mich mit grundlegenden Konzepten wie Variablen, Datentypen, Bedingungen und Schleifen vertraut gemacht und diese in einfachen Programmen angewendet. Ich habe auch die objektorientierte Programmierung und die Arbeit mit Klassen und Funktionen studiert, um meine Fähigkeiten in der strukturierten Programmierung zu verbessern.
+
+Darüber hinaus habe ich mich mit fortgeschrittenen Themen wie Pointern, Speichermodellierung und der Arbeit mit der Standard Template Library (STL) beschäftigt. Ich habe auch an verschiedenen Projekten gearbeitet, um meine Fähigkeiten in der Praxis zu erproben und zu verbessern.
+
+Obwohl ich keine formale Ausbildung in der Programmierung habe, bin ich stolz darauf, mir C++ selbst beigebracht zu haben und meine Fähigkeiten in dieser Sprache kontinuierlich zu erweitern und zu verbessern. Ich bin motiviert und lernbereit, um meine Kenntnisse in C++ und anderen Programmiersprachen zu vertiefen und mich in diesem Bereich weiterzuentwickeln.
